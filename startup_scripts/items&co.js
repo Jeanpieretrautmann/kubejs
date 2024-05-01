@@ -4,6 +4,9 @@ StartupEvents.registry('item', e=> {
     e.create('netherite_stick').texture('kubejs:item/netherite_stick');
 
     e.create('createve_sword', 'sword').tier('test').attackDamageBaseline(9999).texture('kubejs:item/netherite_sword');
+    
+
+    e.create('red_emerald').texture('kubejs:item/red_emerald').maxStackSize(1);
 });
 
 ItemEvents.toolTierRegistry(event => {

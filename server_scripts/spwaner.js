@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
           fluid: "kubejs:spawn_fluid_iron_golem",
           amount: 100,
         },
-        mob: "minecraft:sheep",
-        processingTime: 50,
+        mob: "minecraft:iron_golem",
+        processingTime: 200
       });
 })
